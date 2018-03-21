@@ -1,0 +1,13 @@
+body{
+	background-color: #efe0ee99;
+}
+.welcome {
+	padding-top:35px;
+	width:50%;
+	margin: 0 auto;	
+	font-size:35px;	
+}
+.welcomeText {
+	font-size: 55px;
+	color:#1d03e0bd;
+}
