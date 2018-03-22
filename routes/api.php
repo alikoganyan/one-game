@@ -13,6 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::resource('gamer', 'GamerController');
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
    /* Route::get('/getLevels', 'LevelsController@getLevels');*/
     Route::get('levels', 'LevelsController@index');
